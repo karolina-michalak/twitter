@@ -1,0 +1,918 @@
+*{
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width:499px){
+
+    body{
+            margin: 0;
+            padding: 0;
+        /* #b003af */
+        }
+
+    .container{
+        font-family: 'Muli', sans-serif;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        }
+
+        .top-form{
+            display: none;
+        }
+
+    .twitter-logo{
+        width: 38px;
+        height: 30px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .zobacz{
+        font-size: 27px;
+        font-weight: bold;
+    margin-bottom: 50px;    }
+
+    .top{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;    
+    }
+
+    .top-content{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        /* min-width: 50%; */
+
+    }
+
+    h1{
+        margin-bottom: 50px;
+    }
+
+    .join-in{
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    .buttons-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    button{
+        /* max-width: 400px; */
+        border: 1px solid #b003af;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+
+    }
+    
+    .button-register{
+        margin-bottom: 15px;
+        background: #b003af;
+        color: white;
+        min-height: 39px;
+        min-width: 90;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .button-login{
+        background: white;
+        color: #b003af;
+        min-height: 39px;
+
+    }
+
+    .button-login:hover,
+    .button-login-bottom:hover{
+        background: #ffe6ff;
+        cursor: pointer;
+    } 
+
+
+    .button-register-bottom:hover,
+    .button-register:hover{
+        background: #970297;
+        cursor: pointer;
+
+    }
+
+    .bottom{
+        background-image: url(twitter-purple-background.png);
+        background-size: cover;
+        height: 29vh;
+        display: flex;
+        min-height: 30%;
+        justify-content: center;
+        width: 100%;
+        margin-top: 30px;
+
+    }
+
+    .bottom-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .bottom-text p{
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+
+    }
+
+    .bottom-text1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+
+    .bottom-text1-icon{
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+
+    }
+
+    .bottom-buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        min-width: 90%;
+
+    }
+
+    .button-register-bottom{
+        background: #b003af;
+        color: white;
+        margin-right: 20px;
+        min-height: 39px;
+        width: 50%;
+
+    }
+
+    .button-login-bottom{
+        background: white;
+        color: #b003af;
+        width: 50%;
+
+    }
+
+    .footer-content{
+        margin: 20px 10px 10px 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    
+    .footer-content-element{
+        text-decoration: none;
+        font-size: 13px;
+        color: #737373;
+        padding: 8px;
+    }
+
+    .footer-content a:hover{
+        text-decoration: underline;
+
+    }
+
+
+    
+
+
+
+
+}
+
+
+@media screen and (min-width:500px) and (max-width: 599px){
+    body{
+        margin: 0;
+        padding: 0;
+    /* #b003af */
+    }
+
+.container{
+    font-family: 'Muli', sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+    .top-form{
+        display: none;
+    }
+
+
+.twitter-logo{
+    width: 38px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.zobacz{
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 50px;    }
+
+.top{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.top-content{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* min-width: 50%; */
+
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+.join-in{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+button{
+    /* max-width: 400px; */
+    border: 1px solid #b003af;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.button-register{
+    margin-bottom: 15px;
+    background: #b003af;
+    color: white;
+    min-height: 39px;
+    min-width: 90;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-login{
+    background: white;
+    color: #b003af;
+    min-height: 39px;
+
+}
+
+.button-login:hover,
+.button-login-bottom:hover{
+    background: #ffe6ff;
+    cursor: pointer;
+} 
+
+
+.button-register-bottom:hover,
+.button-register:hover{
+    background: #970297;
+    cursor: pointer;
+
+}
+
+.bottom{
+    background-image: url(twitter-purple-background.png);
+    background-size: cover;
+    height: 34vh;
+    display: flex;
+    min-height: 30%;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.bottom-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.bottom-text p{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.bottom-text1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.bottom-text1-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+
+}
+
+.bottom-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 70%;
+
+}
+
+.button-register-bottom{
+    background: #b003af;
+    color: white;
+    margin-right: 20px;
+    min-height: 39px;
+    width: 50%;
+
+}
+
+.button-login-bottom{
+    background: white;
+    color: #b003af;
+    width: 50%;
+
+}
+
+.footer-content{
+    margin: 20px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.footer-content-element{
+    text-decoration: none;
+    font-size: 13px;
+    color: #737373;
+    padding: 8px;
+}
+
+.footer-content a:hover{
+    text-decoration: underline;
+
+}
+
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width:600px) and (max-width: 799px){
+
+    body{
+        margin: 0;
+        padding: 0;
+    /* #b003af */
+    }
+
+.container{
+    font-family: 'Muli', sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+    .top-form{
+        display: none;
+    }
+
+.twitter-logo{
+    width: 38px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.zobacz{
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 50px;    }
+
+.top{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.top-content{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* min-width: 50%; */
+
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+.join-in{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+button{
+    /* max-width: 400px; */
+    border: 1px solid #b003af;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.button-register{
+    margin-bottom: 15px;
+    background: #b003af;
+    color: white;
+    min-height: 39px;
+    min-width: 90;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-login{
+    background: white;
+    color: #b003af;
+    min-height: 39px;
+
+}
+
+.button-login:hover,
+.button-login-bottom:hover{
+    background: #ffe6ff;
+    cursor: pointer;
+} 
+
+
+.button-register-bottom:hover,
+.button-register:hover{
+    background: #970297;
+    cursor: pointer;
+
+}
+
+.bottom{
+    background-image: url(twitter-purple-background.png);
+    background-size: cover;
+    height: 34vh;
+    display: flex;
+    min-height: 30%;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.bottom-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.bottom-text p{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.bottom-text1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.bottom-text1-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+
+}
+
+.bottom-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 50%;
+
+}
+
+.button-register-bottom{
+    background: #b003af;
+    color: white;
+    margin-right: 20px;
+    min-height: 39px;
+    width: 50%;
+
+}
+
+.button-login-bottom{
+    background: white;
+    color: #b003af;
+    width: 50%;
+
+}
+
+.footer-content{
+    margin: 20px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.footer-content-element{
+    text-decoration: none;
+    font-size: 13px;
+    color: #737373;
+    padding: 8px;
+}
+
+.footer-content a:hover{
+    text-decoration: underline;
+
+}
+
+
+
+}
+
+@media  (max-width:1400px){
+    .top-form{
+        display: none;
+    }
+}
+
+
+@media  (min-width:800px){
+
+
+body{
+        margin: 0;
+        padding: 0;
+}
+
+
+.top-form{
+    position: absolute;
+    top: 0;
+    
+  
+
+}
+
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px
+}
+
+.username-top-form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 30px;
+}
+
+label{
+    background: #f5f5f0;
+    font-size: 14px;
+    width: 200px;
+    color: #d6d6c2;
+
+}
+
+
+label:focus{
+    color: #b003af;
+}
+
+#username, 
+#password{
+    background: #f5f5f0;
+    border-bottom: 3px solid #d6d6c2;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 40px;
+    width: 200px;
+}
+
+#username:focus, 
+#password:focus{
+    border-bottom: 3px solid #b003af;
+   
+}
+
+
+
+#username:focus,
+#password:focus{
+    outline: none;
+}
+
+.password-top-form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#submit{
+        border: 1px solid #b003af;
+        background: white;
+        color: #b003af;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        min-height: 39px;
+        width: 105px;
+        margin-left: 20px;
+        margin-top: 9px;
+    
+}
+
+
+#submit:hover{
+    background: #ffe6ff;
+    cursor: pointer;
+}
+
+.forgot-password{
+    font-size: 12px;
+    color: #b003af;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.forgot-password:hover{
+    text-decoration: underline;
+  
+}
+
+.container{
+    font-family: 'Muli', sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: row-reverse
+    
+}
+
+.twitter-logo{
+    width: 38px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.zobacz{
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 50px;    }
+
+.top{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.top-content{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+.join-in{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+button{
+    border: 1px solid #b003af;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.button-register{
+    margin-bottom: 15px;
+    background: #b003af;
+    color: white;
+    min-height: 39px;
+    min-width: 90;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-login{
+    background: white;
+    color: #b003af;
+    min-height: 39px;
+
+}
+
+.button-login:hover,
+.button-login-bottom:hover{
+    background: #ffe6ff;
+    cursor: pointer;
+} 
+
+
+.button-register-bottom:hover,
+.button-register:hover{
+    background: #970297;
+    cursor: pointer;
+
+}
+
+.bottom{
+    background-image: url(twitter-purple-background.png);
+    background-size: cover;
+    display: flex;
+    flex: 50%;
+    justify-content: center;
+    height: 100vh
+
+}
+
+.bottom-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.bottom-text p{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.bottom-text1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.bottom-text1-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+
+}
+
+.bottom-buttons{
+    display: none;
+
+}
+
+.button-register-bottom{
+    background: #b003af;
+    color: white;
+    margin-right: 20px;
+    min-height: 39px;
+    width: 50%;
+
+}
+
+.button-login-bottom{
+    background: white;
+    color: #b003af;
+    width: 50%;
+
+}
+
+footer{
+position: absolute;
+bottom: 0;
+background: white;
+width: 100%;
+} 
+
+.footer-content{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.footer-content-element{
+    text-decoration: none;
+    font-size: 13px;
+    color: #737373;
+    padding: 8px
+}
+
+.footer-content a:hover{
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+}
